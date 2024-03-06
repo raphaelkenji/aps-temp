@@ -5,7 +5,7 @@ public class Facade {
     private Payment payment;
     private Reservation reservation;
 
-    public Facade(Hotel hotel, Rental rental, Flight flight, Payment payment, Reservation reservation) {
+    public Facade() {
         this.hotel = new Hotel();
         this.rental = new Rental();
         this.flight = new Flight();
